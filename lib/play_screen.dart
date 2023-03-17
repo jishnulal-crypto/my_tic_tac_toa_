@@ -35,7 +35,7 @@ class PlayGroundState extends State<PlayGround> {
   void box_selection(int index) {
     users_choice(index);
     Future.delayed(Duration(seconds: 2));
-    computers_choice(index);
+    // computers_choice(index);
   }
 
   void clear() {
